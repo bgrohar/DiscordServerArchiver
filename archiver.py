@@ -196,10 +196,7 @@ async def TwriteMessages(ctx):
         fract = 100 
         remainder = (ms_limit - fract) % fract  
     
-    print("divisor:",str(divisor))
-    print("fract:",str(fract))
-    print("remainder:",str(remainder))
-    
+ 
     date_treshold = ""
     print("ms_limit:",ms_limit)
     combined_cache = []
